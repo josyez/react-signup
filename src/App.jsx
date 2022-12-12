@@ -59,7 +59,7 @@ function Main (props) {
       }
 
       <Form onSubmit={(e) => handleLogin(e)}>
-      <Form.Group className="mb-3" controlId="formUsername">
+      <Form.Group className="mb-3" controlId="formBasicUsername">
         <Form.Label>Username</Form.Label>
         <Form.Control 
           onChange={(e) => setUsername(e.target.value)} 
@@ -68,7 +68,7 @@ function Main (props) {
           name="username" 
           />
         </Form.Group>        
-      <Form.Group className="mb-3" controlId="formPassword">
+      <Form.Group className="mb-3" controlId="formBasicPassword">
       <Form.Label>Password</Form.Label>
         <Form.Control 
           onChange={(e) => setPassword(e.target.value)} 
@@ -108,7 +108,7 @@ function Main (props) {
 
       <Form onSubmit={(e) => handleLogin(e)}>
 
-      <Form.Group className="mb-3" controlId="formUsername">
+      <Form.Group className="mb-3" controlId="formBasicUsername">
         <Form.Label>Full Name</Form.Label>
         <Form.Control 
           onChange={(e) => setName(e.target.value)} 
@@ -118,7 +118,7 @@ function Main (props) {
           />
         </Form.Group>  
 
-      <Form.Group className="mb-3" controlId="formPassword">
+      <Form.Group className="mb-3" controlId="formBasicPassword">
       <Form.Label>Password</Form.Label>
         <Form.Control 
           onChange={(e) => setPassword(e.target.value)} 
@@ -128,7 +128,7 @@ function Main (props) {
           />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formEmail">
+      <Form.Group className="mb-3" controlId="formBasicEmail">
       <Form.Label>E-mail</Form.Label>
         <Form.Control 
           onChange={(e) => setEmail(e.target.value)} 
